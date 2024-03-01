@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "fSnw9eWohMBbi4s57B8kTI/otGEAUR7BX9nDIP+V5SV7XWaKT9HHuQkNC30I+efIacqh3Vk/g39u5xNkEFLWfw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\timog\\OneDrive\\Desktop\\GitHub\\LA-1304\\BlackJackAPI\\BlackJackAPI\\BlackJackAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\timog\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\timog\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\timog\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\timog\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\timog\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\timog\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
