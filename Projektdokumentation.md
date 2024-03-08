@@ -5,7 +5,7 @@ KeiAhnig : Rebecca Willi, Timo Goedertier
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
 |01.03.2024| 0.0.1   | Plan erstellt und User-Storys geschrieben. |
-|08.03.2024| 0.0.2   |                                                              |
+|08.03.2024| 0.0.2   | Testfälle, Arbeitspakete und Realisation so weit möglich ausgefüllt, mit dem Realisieren begonnen.|
 |15.03.2024| 0.0.3   |                                                              |
 
 ## 1 Informieren
@@ -21,9 +21,8 @@ Unser Projekt geht um das Backend um Blackjack auf einer Webseite zu spielen.
 | 1    | Muss     |Funktional   | Als User möchte, dass meine Eingaben gespeichert werden.|
 | 2    | Muss     |Funktional   | Als User möchte ich, dass mein Benutzerkonto gespeichert wird. |
 | 3    | Muss     |Funktional   | Als User möchte ich, dass mein Passwort zum Benutzerkonto gespeichert wird.|
-| 4    | Muss     |Funktional   |                                    |
-| 5    |                 |      |                                    |
-| 6    |                 |      |                                    |
+| 4    | Muss     |Funktional   | Als User möchte ich, dass mein Geld gespeichert wird.|
+
 
 
 ### 1.3 Testfälle
