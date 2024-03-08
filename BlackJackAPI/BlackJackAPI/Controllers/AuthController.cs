@@ -4,46 +4,61 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using BlackJackAPI.Entities;
+using BlackJackAPI.Data;
 
-namespace StarWarsAPI.Controllers
+namespace BlackJackAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class AuthController : ControllerBase
     {
-        public static User user = new User();
+        private readonly DataContext _context;
         private readonly IConfiguration _configuration;
 
-        public AuthController(IConfiguration configuration)
+        public AuthController(DataContext context, IConfiguration configuration)
         {
+            _context = context;
             _configuration = configuration;
         }
 
         [HttpPost("Register")]
-        public ActionResult<User> Register(UserDto request)
+        public ActionResult<Player> Register(UserDto request)
         {
-            string passwordHash = BCrypt.Net.BCrypt.HashPassword(request.Password);
+            if (_context.Players.Any(p => p.Username == request.Username))
+            {
+                return BadRequest("User already exists.");
+            }
 
-            user.Username = request.Username;
-            user.PasswordHash = passwordHash;
+            var player = new Player
+            {
+                Username = request.Username,
+                PasswordHash = BCrypt.Net.BCrypt.HashPassword(request.Password),
+                Balance = 0
+            };
 
-            return Ok(user);
+            _context.Players.Add(player);
+            _context.SaveChanges();
+
+            return Ok(player);
         }
 
+
         [HttpPost("Login")]
-        public ActionResult<User> Login(UserDto request)
+        public ActionResult<string> Login(UserDto request)
         {
-            if (user.Username != request.Username)
+            var player = _context.Players.FirstOrDefault(p => p.Username == request.Username);
+
+            if (player == null)
             {
                 return NotFound("User not found");
             }
 
-            if (!BCrypt.Net.BCrypt.Verify(request.Password, user.PasswordHash))
+            if (!BCrypt.Net.BCrypt.Verify(request.Password, player.PasswordHash))
             {
                 return BadRequest("Wrong Password");
             }
 
-            string token = CreateToken(user);
+            string token = CreateToken(player);
 
             return Ok(token);
         }

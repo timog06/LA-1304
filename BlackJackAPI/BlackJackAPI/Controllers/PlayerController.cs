@@ -1,4 +1,5 @@
 ﻿using BlackJackAPI.Data;
+using BlackJackAPI.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Numerics;
@@ -22,21 +23,17 @@ namespace BlackJackAPI.Controllers
             // Logic to retrieve the player from the database would go here
             // For now, return a placeholder player for demonstration purposes
 
-            return Ok(new UserDto
-            {
-                PlayerId = 1,
-                Username = "IsThisUsernameTaken",
-                Balance = 10000d
-            });
+            return Ok();
         }
 
+        /*
         [HttpPut("{playerId}")]
         public IActionResult UpdatePlayer(int playerId, [FromBody] Player playerUpdate)
         {
             // Logic to update the player information in the database would go here
             // Make sure to check if the playerId matches playerUpdate.PlayerId and handle accordingly
 
-            return NoContent(); // Return 204 No Content to signify the update was successful
+            return Ok();
         }
 
         [HttpDelete("{playerId}")]
@@ -44,8 +41,7 @@ namespace BlackJackAPI.Controllers
         {
             // Logic to delete the player from the database would go here
 
-            return Ok(); // Return 200 OK to signify the deletion was successful
-        }
+            return Ok();
+        }*/
     }
-}
 }

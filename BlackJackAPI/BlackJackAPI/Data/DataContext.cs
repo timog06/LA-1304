@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using BlackJackAPI.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace BlackJackAPI.Data
 {
@@ -8,5 +9,7 @@ namespace BlackJackAPI.Data
         {
 
         }
+
+        public DbSet<Player> Players { get; set; }
     }
 }
