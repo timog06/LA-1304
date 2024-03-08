@@ -40,8 +40,11 @@ Unser Projekt geht um das Backend um Blackjack auf einer Webseite zu spielen.
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
+| 1.A  |05.04.2024|           |              |               |
+| 2.A  |05.04.2024|           |              |               |
+| 3.A  |05.04.2024|           |              |               | 
+| 4.A  |05.04.2024|           |              |               | 
+| 5.A  |05.04.2024|           |              |               |
 
 Total: 
 
