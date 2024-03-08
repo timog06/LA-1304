@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\timog\\OneDrive\\Desktop\\GitHub\\LA-1304\\BlackJackAPI\\BlackJackAPI\\wwwroot\\Scripts\\script.js",
+      "PackagePath": "staticwebassets\\Scripts\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\timog\\OneDrive\\Desktop\\GitHub\\LA-1304\\BlackJackAPI\\BlackJackAPI\\wwwroot\\Styles\\styles.css",
+      "PackagePath": "staticwebassets\\Styles\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\timog\\OneDrive\\Desktop\\GitHub\\LA-1304\\BlackJackAPI\\BlackJackAPI\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlackJackAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BlackJackAPI.props",
+      "PackagePath": "build\\BlackJackAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BlackJackAPI.props",
+      "PackagePath": "buildMultiTargeting\\BlackJackAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BlackJackAPI.props",
+      "PackagePath": "buildTransitive\\BlackJackAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

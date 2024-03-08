@@ -1,8 +1,8 @@
-﻿using BlackJackAPI.Data;
+﻿using Microsoft.AspNetCore.Mvc;
+using BlackJackAPI.Data;
 using BlackJackAPI.Entities;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using System.Numerics;
+using System.Linq;
+using Microsoft.EntityFrameworkCore;
 
 namespace BlackJackAPI.Controllers
 {
@@ -10,38 +10,94 @@ namespace BlackJackAPI.Controllers
     [ApiController]
     public class PlayerController : ControllerBase
     {
-        private readonly DataContext _context; 
+        private readonly DataContext _context;
 
         public PlayerController(DataContext context)
         {
             _context = context;
         }
 
-        [HttpGet("{playerId}")]
-        public IActionResult GetPlayer(UserDto request)
+        [HttpGet("searchByUsername/{username}")]
+        public async Task<ActionResult<Player>> GetPlayerByUsername(string username)
         {
-            // Logic to retrieve the player from the database would go here
-            // For now, return a placeholder player for demonstration purposes
+            var player = await _context.Players.FirstOrDefaultAsync(p => p.Username.ToLower() == username.ToLower());
+            if (player == null)
+            {
+                return NotFound("Player not found.");
+            }
 
-            return Ok();
+            return Ok(player);
         }
 
-        /*
-        [HttpPut("{playerId}")]
-        public IActionResult UpdatePlayer(int playerId, [FromBody] Player playerUpdate)
+        [HttpGet("searchById/{playerId}")]
+        public async Task<ActionResult<Player>> GetPlayerById(int playerId)
         {
-            // Logic to update the player information in the database would go here
-            // Make sure to check if the playerId matches playerUpdate.PlayerId and handle accordingly
+            var player = await _context.Players.FindAsync(playerId);
+            if (player == null)
+            {
+                return NotFound("Player not found.");
+            }
 
-            return Ok();
+            return Ok(player);
+        }
+
+
+        [HttpPut("update/{playerId}")]
+        public async Task<ActionResult> UpdatePlayer(int playerId, [FromBody] PlayerUpdateDto playerUpdate)
+        {
+            var player = await _context.Players.FindAsync(playerId);
+            if (player == null)
+            {
+                return NotFound("Player not found.");
+            }
+
+            if (!BCrypt.Net.BCrypt.Verify(playerUpdate.Password, player.PasswordHash))
+            {
+                return BadRequest("Wrong password.");
+            }
+
+            player.Username = playerUpdate.Username ?? player.Username;
+
+            if (!string.IsNullOrWhiteSpace(playerUpdate.NewPassword))
+            {
+                player.PasswordHash = BCrypt.Net.BCrypt.HashPassword(playerUpdate.NewPassword);
+            }
+
+            _context.Players.Update(player);
+            await _context.SaveChangesAsync();
+
+            return Ok(player);
+        }
+
+
+        [HttpPut("updateBalance/{username}")]
+        public async Task<ActionResult> UpdatePlayerBalance(string username, [FromBody] int newBalance)
+        {
+            var player = await _context.Players.FirstOrDefaultAsync(p => p.Username == username);
+            if (player == null)
+            {
+                return NotFound("Player not found.");
+            }
+
+            player.Balance = newBalance;
+            await _context.SaveChangesAsync();
+
+            return Ok(player);
         }
 
         [HttpDelete("{playerId}")]
-        public IActionResult DeletePlayer(int playerId)
+        public async Task<ActionResult> DeletePlayer(int playerId)
         {
-            // Logic to delete the player from the database would go here
+            var player = await _context.Players.FindAsync(playerId);
+            if (player == null)
+            {
+                return NotFound("Player not found.");
+            }
 
-            return Ok();
-        }*/
+            _context.Players.Remove(player);
+            await _context.SaveChangesAsync();
+
+            return Ok($"Player {playerId} has been deleted.");
+        }
     }
 }

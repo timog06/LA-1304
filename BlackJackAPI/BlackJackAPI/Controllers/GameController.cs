@@ -1,5 +1,4 @@
 ﻿using BlackJackAPI.Data;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BlackJackAPI.Controllers
@@ -8,11 +7,7 @@ namespace BlackJackAPI.Controllers
     [ApiController]
     public class GameController : ControllerBase
     {
-        private readonly DataContext _context;
+        // Methods to manage game states like starting a new game, resetting the deck, etc.
 
-        public GameController(DataContext context)
-        {
-            _context = context;
-        }
     }
 }
