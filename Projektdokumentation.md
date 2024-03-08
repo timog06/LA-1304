@@ -4,9 +4,9 @@ KeiAhnig : Rebecca Willi, Timo Goedertier
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
-|       | ...     |                                                              |
-|       | 1.0.0   |                                                              |
+|01.03.2024| 0.0.1   | Plan erstellt und User-Storys geschrieben. |
+|08.03.2024| 0.0.2   |                                                              |
+|15.03.2024| 0.0.3   |                                                              |
 
 ## 1 Informieren
 
@@ -18,12 +18,12 @@ Unser Projekt geht um das Backend um Blackjack auf einer Webseite zu spielen.
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      |                                    |
-| ...  |                 |      |                                    |
-| ...  |                 |      |                                    |
-| ...  |                 |      |                                    |
-| ...  |                 |      |                                    |
-| ...  |                 |      |                                    |
+| 1    | Muss     |Funktional   | Als User möchte, dass meine Eingaben gespeichert werden.|
+| 2    | Muss     |Funktional   | Als User möchte ich, dass mein Benutzerkonto gespeichert wird. |
+| 3    | Muss     |Funktional   | Als User möchte ich, dass mein Passwort zum Benutzerkonto gespeichert wird.|
+| 4    | Muss     |Funktional   |                                    |
+| 5    |                 |      |                                    |
+| 6    |                 |      |                                    |
 
 
 ### 1.3 Testfälle
@@ -35,9 +35,7 @@ Unser Projekt geht um das Backend um Blackjack auf einer Webseite zu spielen.
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
-### 1.4 Diagramme
 
-✍️ Hier können Sie PAPs, Use Case- und Gantt-Diagramme oder Ähnliches einfügen.
 
 ## 2 Planen
 
