@@ -6,7 +6,7 @@ KeiAhnig : Rebecca Willi, Timo Goedertier
 | ----- | ------- | ------------------------------------------------------------ |
 |01.03.2024| 0.0.1   | Plan erstellt und User-Storys geschrieben. |
 |08.03.2024| 0.0.2   | Testfälle, Arbeitspakete und Realisation so weit möglich ausgefüllt, mit dem Realisieren begonnen.|
-|15.03.2024| 0.0.3   |                                                              |
+|15.03.2024| 0.0.3   | Realisieren |
 
 ## 1 Informieren
 
