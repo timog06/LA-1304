@@ -17,7 +17,15 @@ namespace BlackJackAPI.Controllers
             _context = context;
         }
 
-        [HttpGet("searchByUsername/{username}")]
+        [HttpGet]
+        public async Task<ActionResult<List<Player>>> GetAllPlayers()
+        {
+            var players = await _context.Players.ToListAsync();
+            return Ok(players);
+        }
+
+
+        [HttpGet("search/un={username}")]
         public async Task<ActionResult<Player>> GetPlayerByUsername(string username)
         {
             var player = await _context.Players.FirstOrDefaultAsync(p => p.Username.ToLower() == username.ToLower());
@@ -29,7 +37,7 @@ namespace BlackJackAPI.Controllers
             return Ok(player);
         }
 
-        [HttpGet("searchById/{playerId}")]
+        [HttpGet("search/id={playerId}")]
         public async Task<ActionResult<Player>> GetPlayerById(int playerId)
         {
             var player = await _context.Players.FindAsync(playerId);
@@ -42,7 +50,7 @@ namespace BlackJackAPI.Controllers
         }
 
 
-        [HttpPut("update/{playerId}")]
+        [HttpPut("update/id={playerId}")]
         public async Task<ActionResult> UpdatePlayer(int playerId, [FromBody] PlayerUpdateDto playerUpdate)
         {
             var player = await _context.Players.FindAsync(playerId);
@@ -64,22 +72,6 @@ namespace BlackJackAPI.Controllers
             }
 
             _context.Players.Update(player);
-            await _context.SaveChangesAsync();
-
-            return Ok(player);
-        }
-
-
-        [HttpPut("updateBalance/{username}")]
-        public async Task<ActionResult> UpdatePlayerBalance(string username, [FromBody] int newBalance)
-        {
-            var player = await _context.Players.FirstOrDefaultAsync(p => p.Username == username);
-            if (player == null)
-            {
-                return NotFound("Player not found.");
-            }
-
-            player.Balance = newBalance;
             await _context.SaveChangesAsync();
 
             return Ok(player);

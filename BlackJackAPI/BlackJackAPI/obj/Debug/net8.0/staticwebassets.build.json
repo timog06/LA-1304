@@ -1,20 +1,12 @@
 {
   "Version": 1,
-  "Hash": "8y7/kjgURrmPg7BcOxqvtcjk9vDxhoLIfL3Zy28epwc=",
+  "Hash": "SCc+RBnHig3zDdgxRPv1u9MvtESDkBVt8cug4khM12s=",
   "Source": "BlackJackAPI",
   "BasePath": "_content/BlackJackAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [
-    {
-      "Name": "BlackJackAPI\\wwwroot",
-      "Source": "BlackJackAPI",
-      "ContentRoot": "C:\\Users\\timog\\OneDrive\\Desktop\\GitHub\\LA-1304\\BlackJackAPI\\BlackJackAPI\\wwwroot\\",
-      "BasePath": "_content/BlackJackAPI",
-      "Pattern": "**"
-    }
-  ],
+  "DiscoveryPatterns": [],
   "Assets": [
     {
       "Identity": "C:\\Users\\timog\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.2\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
@@ -72,63 +64,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\timog\\OneDrive\\Desktop\\GitHub\\LA-1304\\BlackJackAPI\\BlackJackAPI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BlackJackAPI.styles.css"
-    },
-    {
-      "Identity": "C:\\Users\\timog\\OneDrive\\Desktop\\GitHub\\LA-1304\\BlackJackAPI\\BlackJackAPI\\wwwroot\\index.html",
-      "SourceId": "BlackJackAPI",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\timog\\OneDrive\\Desktop\\GitHub\\LA-1304\\BlackJackAPI\\BlackJackAPI\\wwwroot\\",
-      "BasePath": "_content/BlackJackAPI",
-      "RelativePath": "index.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\index.html"
-    },
-    {
-      "Identity": "C:\\Users\\timog\\OneDrive\\Desktop\\GitHub\\LA-1304\\BlackJackAPI\\BlackJackAPI\\wwwroot\\Scripts\\script.js",
-      "SourceId": "BlackJackAPI",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\timog\\OneDrive\\Desktop\\GitHub\\LA-1304\\BlackJackAPI\\BlackJackAPI\\wwwroot\\",
-      "BasePath": "_content/BlackJackAPI",
-      "RelativePath": "Scripts/script.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Scripts\\script.js"
-    },
-    {
-      "Identity": "C:\\Users\\timog\\OneDrive\\Desktop\\GitHub\\LA-1304\\BlackJackAPI\\BlackJackAPI\\wwwroot\\Styles\\styles.css",
-      "SourceId": "BlackJackAPI",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\timog\\OneDrive\\Desktop\\GitHub\\LA-1304\\BlackJackAPI\\BlackJackAPI\\wwwroot\\",
-      "BasePath": "_content/BlackJackAPI",
-      "RelativePath": "Styles/styles.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Styles\\styles.css"
     }
   ]
 }

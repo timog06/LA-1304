@@ -1,5 +1,7 @@
 ﻿using BlackJackAPI.Data;
+using BlackJackAPI.Entities;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace BlackJackAPI.Controllers
 {
@@ -14,7 +16,7 @@ namespace BlackJackAPI.Controllers
             _context = context;
         }
 
-        [HttpPost("hit/{playerId}")]
+        [HttpPost("hit/id={playerId}")]
         public async Task<IActionResult> Hit(int playerId)
         {
             // Logic to add a new card to the player's hand
@@ -23,10 +25,10 @@ namespace BlackJackAPI.Controllers
             // 3. Update the player's hand in the game state
             // 4. Check for player bust (hand value exceeds 21)
 
-            return Ok(); // Return updated player hand and game status
+            return Ok(); // Updated Playerhand and 
         }
 
-        [HttpPost("stand/{playerId}")]
+        [HttpPost("stand/id={playerId}")]
         public async Task<IActionResult> Stand(int playerId)
         {
             // Logic for the stand action
@@ -36,8 +38,8 @@ namespace BlackJackAPI.Controllers
             return Ok(); // Return game state indicating the player has stood
         }
 
-        [HttpPost("double/{playerId}")]
-        public async Task<IActionResult> Double(int playerId)
+        [HttpPost("double/id={playerId}")]
+        public async Task<IActionResult> Double(int playerId, int bet)
         {
             // Logic to double the player's bet and deal one more card
             // 1. Verify the player has sufficient balance to double the bet
@@ -49,7 +51,7 @@ namespace BlackJackAPI.Controllers
             return Ok(); // Return updated player hand, bet, and game status
         }
 
-        [HttpPost("split/{playerId}")]
+        [HttpPost("split/id={playerId}")]
         public async Task<IActionResult> Split(int playerId)
         {
             // Logic to split the player's cards if they are a pair
