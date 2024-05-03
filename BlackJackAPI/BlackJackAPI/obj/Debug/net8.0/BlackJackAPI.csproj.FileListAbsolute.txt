@@ -257,9 +257,9 @@ C:\Users\timog\OneDrive\Desktop\GitHub\LA-1304\BlackJackAPI\BlackJackAPI\obj\Deb
 C:\Users\timog\OneDrive\Desktop\GitHub\LA-1304\BlackJackAPI\BlackJackAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BlackJackAPI.props
 C:\Users\timog\OneDrive\Desktop\GitHub\LA-1304\BlackJackAPI\BlackJackAPI\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\timog\OneDrive\Desktop\GitHub\LA-1304\BlackJackAPI\BlackJackAPI\obj\Debug\net8.0\scopedcss\bundle\BlackJackAPI.styles.css
-C:\Users\timog\OneDrive\Desktop\GitHub\LA-1304\BlackJackAPI\BlackJackAPI\obj\Debug\net8.0\BlackJackAPI.csproj.CopyComplete
 C:\Users\timog\OneDrive\Desktop\GitHub\LA-1304\BlackJackAPI\BlackJackAPI\obj\Debug\net8.0\BlackJackAPI.dll
 C:\Users\timog\OneDrive\Desktop\GitHub\LA-1304\BlackJackAPI\BlackJackAPI\obj\Debug\net8.0\refint\BlackJackAPI.dll
 C:\Users\timog\OneDrive\Desktop\GitHub\LA-1304\BlackJackAPI\BlackJackAPI\obj\Debug\net8.0\BlackJackAPI.pdb
 C:\Users\timog\OneDrive\Desktop\GitHub\LA-1304\BlackJackAPI\BlackJackAPI\obj\Debug\net8.0\BlackJackAPI.genruntimeconfig.cache
 C:\Users\timog\OneDrive\Desktop\GitHub\LA-1304\BlackJackAPI\BlackJackAPI\obj\Debug\net8.0\ref\BlackJackAPI.dll
+C:\Users\timog\OneDrive\Desktop\GitHub\LA-1304\BlackJackAPI\BlackJackAPI\obj\Debug\net8.0\BlackJac.A1B4418E.Up2Date

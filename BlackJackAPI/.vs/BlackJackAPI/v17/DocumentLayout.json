@@ -1,0 +1,171 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\timog\\OneDrive\\Desktop\\GitHub\\LA-1304\\BlackJackAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{526B987F-5690-4C96-96E1-BB65045B6A03}|BlackJackAPI\\BlackJackAPI.csproj|c:\\users\\timog\\onedrive\\desktop\\github\\la-1304\\blackjackapi\\blackjackapi\\controllers\\balancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{526B987F-5690-4C96-96E1-BB65045B6A03}|BlackJackAPI\\BlackJackAPI.csproj|solutionrelative:blackjackapi\\controllers\\balancecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{526B987F-5690-4C96-96E1-BB65045B6A03}|BlackJackAPI\\BlackJackAPI.csproj|c:\\users\\timog\\onedrive\\desktop\\github\\la-1304\\blackjackapi\\blackjackapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{526B987F-5690-4C96-96E1-BB65045B6A03}|BlackJackAPI\\BlackJackAPI.csproj|solutionrelative:blackjackapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{526B987F-5690-4C96-96E1-BB65045B6A03}|BlackJackAPI\\BlackJackAPI.csproj|c:\\users\\timog\\onedrive\\desktop\\github\\la-1304\\blackjackapi\\blackjackapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{526B987F-5690-4C96-96E1-BB65045B6A03}|BlackJackAPI\\BlackJackAPI.csproj|solutionrelative:blackjackapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{526B987F-5690-4C96-96E1-BB65045B6A03}|BlackJackAPI\\BlackJackAPI.csproj|c:\\users\\timog\\onedrive\\desktop\\github\\la-1304\\blackjackapi\\blackjackapi\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{526B987F-5690-4C96-96E1-BB65045B6A03}|BlackJackAPI\\BlackJackAPI.csproj|solutionrelative:blackjackapi\\controllers\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{526B987F-5690-4C96-96E1-BB65045B6A03}|BlackJackAPI\\BlackJackAPI.csproj|c:\\users\\timog\\onedrive\\desktop\\github\\la-1304\\blackjackapi\\blackjackapi\\controllers\\actioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{526B987F-5690-4C96-96E1-BB65045B6A03}|BlackJackAPI\\BlackJackAPI.csproj|solutionrelative:blackjackapi\\controllers\\actioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{526B987F-5690-4C96-96E1-BB65045B6A03}|BlackJackAPI\\BlackJackAPI.csproj|c:\\users\\timog\\onedrive\\desktop\\github\\la-1304\\blackjackapi\\blackjackapi\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{526B987F-5690-4C96-96E1-BB65045B6A03}|BlackJackAPI\\BlackJackAPI.csproj|solutionrelative:blackjackapi\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{526B987F-5690-4C96-96E1-BB65045B6A03}|BlackJackAPI\\BlackJackAPI.csproj|c:\\users\\timog\\onedrive\\desktop\\github\\la-1304\\blackjackapi\\blackjackapi\\entities\\betrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{526B987F-5690-4C96-96E1-BB65045B6A03}|BlackJackAPI\\BlackJackAPI.csproj|solutionrelative:blackjackapi\\entities\\betrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{526B987F-5690-4C96-96E1-BB65045B6A03}|BlackJackAPI\\BlackJackAPI.csproj|c:\\users\\timog\\onedrive\\desktop\\github\\la-1304\\blackjackapi\\blackjackapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{526B987F-5690-4C96-96E1-BB65045B6A03}|BlackJackAPI\\BlackJackAPI.csproj|solutionrelative:blackjackapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{526B987F-5690-4C96-96E1-BB65045B6A03}|BlackJackAPI\\BlackJackAPI.csproj|c:\\users\\timog\\onedrive\\desktop\\github\\la-1304\\blackjackapi\\blackjackapi\\blackjackapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{526B987F-5690-4C96-96E1-BB65045B6A03}|BlackJackAPI\\BlackJackAPI.csproj|solutionrelative:blackjackapi\\blackjackapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BalanceController.cs",
+              "DocumentMoniker": "C:\\Users\\timog\\OneDrive\\Desktop\\GitHub\\LA-1304\\BlackJackAPI\\BlackJackAPI\\Controllers\\BalanceController.cs",
+              "RelativeDocumentMoniker": "BlackJackAPI\\Controllers\\BalanceController.cs",
+              "ToolTip": "C:\\Users\\timog\\OneDrive\\Desktop\\GitHub\\LA-1304\\BlackJackAPI\\BlackJackAPI\\Controllers\\BalanceController.cs",
+              "RelativeToolTip": "BlackJackAPI\\Controllers\\BalanceController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACMAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T23:51:53.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BetRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\timog\\OneDrive\\Desktop\\GitHub\\LA-1304\\BlackJackAPI\\BlackJackAPI\\Entities\\BetRequestDto.cs",
+              "RelativeDocumentMoniker": "BlackJackAPI\\Entities\\BetRequestDto.cs",
+              "ToolTip": "C:\\Users\\timog\\OneDrive\\Desktop\\GitHub\\LA-1304\\BlackJackAPI\\BlackJackAPI\\Entities\\BetRequestDto.cs",
+              "RelativeToolTip": "BlackJackAPI\\Entities\\BetRequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-15T12:51:11.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\timog\\OneDrive\\Desktop\\GitHub\\LA-1304\\BlackJackAPI\\BlackJackAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "BlackJackAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\timog\\OneDrive\\Desktop\\GitHub\\LA-1304\\BlackJackAPI\\BlackJackAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "BlackJackAPI\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-15T07:22:11.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\timog\\OneDrive\\Desktop\\GitHub\\LA-1304\\BlackJackAPI\\BlackJackAPI\\Controllers\\PlayerController.cs",
+              "RelativeDocumentMoniker": "BlackJackAPI\\Controllers\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\timog\\OneDrive\\Desktop\\GitHub\\LA-1304\\BlackJackAPI\\BlackJackAPI\\Controllers\\PlayerController.cs",
+              "RelativeToolTip": "BlackJackAPI\\Controllers\\PlayerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T12:19:52.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\timog\\OneDrive\\Desktop\\GitHub\\LA-1304\\BlackJackAPI\\BlackJackAPI\\Program.cs",
+              "RelativeDocumentMoniker": "BlackJackAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\timog\\OneDrive\\Desktop\\GitHub\\LA-1304\\BlackJackAPI\\BlackJackAPI\\Program.cs",
+              "RelativeToolTip": "BlackJackAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T06:47:27.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\timog\\OneDrive\\Desktop\\GitHub\\LA-1304\\BlackJackAPI\\BlackJackAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "BlackJackAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\timog\\OneDrive\\Desktop\\GitHub\\LA-1304\\BlackJackAPI\\BlackJackAPI\\appsettings.json",
+              "RelativeToolTip": "BlackJackAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-15T09:11:17.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ActionController.cs",
+              "DocumentMoniker": "C:\\Users\\timog\\OneDrive\\Desktop\\GitHub\\LA-1304\\BlackJackAPI\\BlackJackAPI\\Controllers\\ActionController.cs",
+              "RelativeDocumentMoniker": "BlackJackAPI\\Controllers\\ActionController.cs",
+              "ToolTip": "C:\\Users\\timog\\OneDrive\\Desktop\\GitHub\\LA-1304\\BlackJackAPI\\BlackJackAPI\\Controllers\\ActionController.cs",
+              "RelativeToolTip": "BlackJackAPI\\Controllers\\ActionController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAgwBAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T07:00:04.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameController.cs",
+              "DocumentMoniker": "C:\\Users\\timog\\OneDrive\\Desktop\\GitHub\\LA-1304\\BlackJackAPI\\BlackJackAPI\\Controllers\\GameController.cs",
+              "RelativeDocumentMoniker": "BlackJackAPI\\Controllers\\GameController.cs",
+              "ToolTip": "C:\\Users\\timog\\OneDrive\\Desktop\\GitHub\\LA-1304\\BlackJackAPI\\BlackJackAPI\\Controllers\\GameController.cs",
+              "RelativeToolTip": "BlackJackAPI\\Controllers\\GameController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T06:59:12.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BlackJackAPI.http",
+              "DocumentMoniker": "C:\\Users\\timog\\OneDrive\\Desktop\\GitHub\\LA-1304\\BlackJackAPI\\BlackJackAPI\\BlackJackAPI.http",
+              "RelativeDocumentMoniker": "BlackJackAPI\\BlackJackAPI.http",
+              "ToolTip": "C:\\Users\\timog\\OneDrive\\Desktop\\GitHub\\LA-1304\\BlackJackAPI\\BlackJackAPI\\BlackJackAPI.http",
+              "RelativeToolTip": "BlackJackAPI\\BlackJackAPI.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-03-01T06:47:41.618Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
