@@ -24,11 +24,15 @@ Unser Projekt geht um das Backend um Blackjack auf einer Webseite zu spielen.
 | 1    | Muss     |Funktional   | Als User möchte, dass meine Eingaben gespeichert werden.|
 | 2    | Muss     |Funktional   | Als User möchte ich, dass mein Benutzerkonto gespeichert wird. |
 | 3    | Muss     |Funktional   | Als User möchte ich, dass mein Passwort zum Benutzerkonto gespeichert wird.|
-| 4    | Muss     |Funktional   | Als User möchte ich, dass mein Geld gespeichert wird.|
+| 4    | Muss     |Funktional   | Als User möchte ich, dass mein Kontostand gespeichert wird.|
 | 5    | Kann     |Funktional   | Als Programmierer möchte ich, dass die Benutzerdaten in einer SQL-Datenbank gesepeichert werden| 
-| 6    | Muss     |Funktional   | Als User möchte ich mein Password aktualisieren können.| 
+| 6    | Muss     |Funktional   | Als User möchte ich meine Benutzerkontodaten aktualisieren können.| 
 | 7    | Muss     |Qualität     | Als User möchte ich, mein Benutzerkonto löschen können.| 
-| 8    | Muss     |
+| 8    | Muss     |Funktional   | Als User möchte ich, dass mein Kontostand aktualisiert wird.|
+| 9    | Muss     |Funktional   | Als User möchte ich, eine neue Karte ziehen können.|
+| 10   | Muss     |Funktional   | Als User möchte ich, keine neue Karte ziehen können.|
+| 11   | Muss     |Funktional   | Als User möchte ich, meinen Einsatz verdoppeln können.|
+| 12   | Muss     |Funktional   | Als User möchte ich, meine Karten aufteilen können.|
 
 
 
