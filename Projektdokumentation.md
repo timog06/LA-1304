@@ -7,6 +7,9 @@ KeiAhnig : Rebecca Willi, Timo Goedertier
 |01.03.2024| 0.0.1   | Plan erstellt und User-Storys geschrieben. |
 |08.03.2024| 0.0.2   | Testfälle, Arbeitspakete und Realisation so weit möglich ausgefüllt, mit dem Realisieren begonnen.|
 |15.03.2024| 0.0.3   | Realisieren |
+|22.03.2024| 0.0.4   | Realisieren |
+|05.04.2024| 0.0.5   | Fertig realisiert|
+|26.04.2024| 0.0.6   | Kontrolle und Auswertung| 
 
 ## 1 Informieren
 
@@ -22,8 +25,10 @@ Unser Projekt geht um das Backend um Blackjack auf einer Webseite zu spielen.
 | 2    | Muss     |Funktional   | Als User möchte ich, dass mein Benutzerkonto gespeichert wird. |
 | 3    | Muss     |Funktional   | Als User möchte ich, dass mein Passwort zum Benutzerkonto gespeichert wird.|
 | 4    | Muss     |Funktional   | Als User möchte ich, dass mein Geld gespeichert wird.|
-| 5    | Muss     |Funktional   | Als Programmierer möchte ich, dass die Benutzerdaten in einer SQL-Datenbank gesepeichert werden| 
+| 5    | Kann     |Funktional   | Als Programmierer möchte ich, dass die Benutzerdaten in einer SQL-Datenbank gesepeichert werden| 
 | 6    | Muss     |Funktional   | Als User möchte ich mein Password aktualisieren können.| 
+| 7    | Muss     |Qualität     | Als User möchte ich, mein Benutzerkonto löschen können.| 
+| 8    | Muss     |
 
 
 
